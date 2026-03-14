@@ -13,7 +13,7 @@ public interface ChunkLockerConfig extends Config{
     @ConfigSection(
             name = "Chunks",
             description = "Settings relating to chunks that you can unlock",
-            position = 0
+            position = 3
     )
     String chunkSettings = "chunkSettings";
 
@@ -80,7 +80,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "renderLockedChunks",
             name = "Locked chunk shader",
             description = "Adds graphical change to all chunks that are locked",
-            section = environmentSettings
+            section = environmentSettings,
+            hidden = true
     )
     default boolean renderLockedChunks()
     {
@@ -91,7 +92,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "renderChunkBorders",
             name = "Draw chunk border lines",
             description = "Draw the chunk borders in the environment marked by lines",
-            section = environmentSettings
+            section = environmentSettings,
+            position = 4
     )
     default boolean renderChunkBorders()
     {
@@ -102,7 +104,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "chunkBorderWidth",
             name = "Chunk border width",
             description = "How wide the chunk border will be",
-            section = environmentSettings
+            section = environmentSettings,
+            position = 7
     )
     default int chunkBorderWidth()
     {
@@ -113,7 +116,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "renderChunkEdges",
             name = "Draw unlocked chunks edge",
             description = "Draw the outer border line between unlocked and locked chunks",
-            section = environmentSettings
+            section = environmentSettings,
+            position = 5
     )
     default boolean renderChunkEdge()
     {
@@ -124,7 +128,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "chunkEdgeWidth",
             name = "Chunk edge width",
             description = "How wide the chunk edge will be",
-            section = environmentSettings
+            section = environmentSettings,
+            position = 9
     )
     default int chunkEdgeWidth()
     {
@@ -136,7 +141,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "chunkEdgeColor",
             name = "Chunk edge color",
             description = "The color of the chunk edges",
-            section = environmentSettings
+            section = environmentSettings,
+            position = 8
     )
     default Color chunkEdgeColor()
     {
@@ -148,7 +154,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "chunkBorderColor",
             name = "Chunk border color",
             description = "The color of the chunk borders",
-            section = environmentSettings
+            section = environmentSettings,
+            position = 6
     )
     default Color chunkBorderColor()
     {
@@ -160,7 +167,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "shaderGrayColor",
             name = "Chunk shader color",
             description = "The color of the locked chunks in the shader",
-            section = environmentSettings
+            section = environmentSettings,
+            hidden = true
     )
     default Color shaderGrayColor()
     {
@@ -172,7 +180,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "shaderGrayAmount",
             name = "Chunk shader opacity",
             description = "The amount of gray scale that is applied to a locked chunk in the shader (alpha only)",
-            section = environmentSettings
+            section = environmentSettings,
+            hidden = true
     )
     default Color shaderGrayAmount()
     {
@@ -183,7 +192,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "hardBorder",
             name = "Hard chunk border",
             description = "True = hard border cutoff, False = chunk border gradient",
-            section = environmentSettings
+            section = environmentSettings,
+            hidden = true
     )
     default boolean hardBorder()
     {
@@ -195,7 +205,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "drawMapOverlay",
             name = "Draw chunks on map",
             description = "Draw a color overlay for each locked/unlocked chunk",
-            section = mapSettings
+            section = mapSettings,
+            position = 10
     )
     default boolean drawMapOverlay()
     {
@@ -206,7 +217,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "invertMapOverlay",
             name = "Invert map overlay",
             description = "Switches which chunks the map will draw the color overlay for (true = locked, false = unlocked)",
-            section = mapSettings
+            section = mapSettings,
+            position = 13
     )
     default boolean invertMapOverlay()
     {
@@ -218,8 +230,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "mapOverlayColor",
             name = "Map overlay color",
             description = "The color the map overlay will draw the chunks in",
-            position = 30,
-            section = mapSettings
+            section = mapSettings,
+            position = 17
     )
     default Color mapOverlayColor()
     {
@@ -231,7 +243,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "unlockableOverlayColor",
             name = "Unlockable overlay color",
             description = "The color the map overlay will draw the unlockable chunks in",
-            section = mapSettings
+            section = mapSettings,
+            position = 18
     )
     default Color unlockableOverlayColor()
     {
@@ -243,7 +256,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "blacklistedOverlayColor",
             name = "Blacklisted overlay color",
             description = "The color the map overlay will draw the blacklisted chunks in",
-            section = mapSettings
+            section = mapSettings,
+            position = 19
     )
     default Color blacklistedOverlayColor()
     {
@@ -254,7 +268,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "drawMapGrid",
             name = "Draw map grid",
             description = "Draw the grid of chunks on the map",
-            section = mapSettings
+            section = mapSettings,
+            position = 11
     )
     default boolean drawMapGrid()
     {
@@ -265,7 +280,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "drawRegionId",
             name = "Draw region IDs",
             description = "Draw the chunk ID for each chunk on the map",
-            section = mapSettings
+            section = mapSettings,
+            position = 12
     )
     default boolean drawRegionId()
     {
@@ -276,7 +292,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "unlockKey",
             name = "Unlock Key",
             description = "When you hold this key you can click on the map to unlock a chunk",
-            section = mapSettings
+            section = mapSettings,
+            position = 14
     )
     default Keybind unlockKey(){return Keybind.SHIFT;}
 
@@ -284,7 +301,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "blockKey",
             name = "Block Key",
             description = "When you hold this key you can click on the map to blacklist a chunk",
-            section = mapSettings
+            section = mapSettings,
+            position = 15
     )
     default Keybind blockKey(){return Keybind.CTRL;}
 
@@ -292,7 +310,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "rollKey",
             name = "Roll Key",
             description = "Press and release this key once to roll a random chunk out of all unlockable ones.",
-            section = mapSettings
+            section = mapSettings,
+            position = 16
     )
     default Keybind rollKey(){return Keybind.NOT_SET;}
 
@@ -300,7 +319,8 @@ public interface ChunkLockerConfig extends Config{
             keyName = "invertShader",
             name = "Invert chunk shader",
             description = "True = unlocked chunks are shaded",
-            section = environmentSettings
+            section = environmentSettings,
+            hidden = true
     )
     default boolean invertShader() { return false; }
 }
