@@ -6,10 +6,9 @@ import net.runelite.client.util.Text;
 
 import javax.swing.plaf.synth.Region;
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.*;
 import java.util.List;
-import java.util.Map;
+import java.util.stream.Collectors;
 
 public class ChunkLocker {
     private final ChunkLockerConfig config;
@@ -23,7 +22,7 @@ public class ChunkLocker {
     public static int grayAmount;
     public static boolean hardBorder;
     public static boolean invertShader;
-    private static boolean unlockNonMainlandChunks;
+    //private static boolean unlockNonMainlandChunks;
 
 
     ChunkLocker(ChunkLockerConfig config, ConfigManager configManager) {
@@ -44,7 +43,7 @@ public class ChunkLocker {
 
     public void readConfig() {
         renderLockedChunks = config.renderLockedChunks();
-        unlockNonMainlandChunks = config.unlockNonMainlandChunks();
+        //unlockNonMainlandChunks = config.unlockNonMainlandChunks();
         grayColor = config.shaderGrayColor();
         grayAmount = config.shaderGrayAmount().getAlpha();
         hardBorder = config.hardBorder();
@@ -125,5 +124,19 @@ public class ChunkLocker {
         RegionTypes type = getType(chunkId);
         if (type == null) return false;
         return type == RegionTypes.UNLOCKED;
+    }
+
+    public static int rollChunk() {
+        List<Integer> unlockableChunks = chunks.entrySet()
+                .stream()
+                .filter(c -> c.getValue() == RegionTypes.UNLOCKABLE)
+                .collect(Collectors.toList())
+                .stream()
+                .map(e -> Integer.parseInt(e.getKey()))
+                .collect(Collectors.toList());
+
+        Random rand = new Random();
+
+        return unlockableChunks.get(rand.nextInt(unlockableChunks.size()));
     }
 }

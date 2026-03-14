@@ -25,9 +25,6 @@ public class ChunkEdgeOverlay extends Overlay {
     private final Client client;
     private final ChunkLockerConfig config;
 
-    //TODO: Delete
-    private HashMap<Integer, Integer> debug_weChunkLines;
-    private HashMap<Integer, Integer> debug_snChunkLines;
 
     @Inject
     private ChunkEdgeOverlay(Client client, ChunkLockerConfig config) {
@@ -46,12 +43,12 @@ public class ChunkEdgeOverlay extends Overlay {
     }
 
     private void renderChunkEdge(Graphics2D graphics) {
-        debug_weChunkLines = new HashMap<Integer, Integer>();
-        debug_snChunkLines = new HashMap<Integer, Integer>();
-
         List<String> unlockedChunks = new ArrayList<>(Text.fromCSV(config.unlockedChunks()));
 
         WorldPoint wp = client.getLocalPlayer().getWorldLocation();
+        if (config.unlockNonMainlandChunks() && wp.getPlane() != 0) {
+            return;
+        }
 
         int startX = (wp.getX() - CULL_CHUNK_BORDERS_RANGE + CHUNK_SIZE - 1) / CHUNK_SIZE * CHUNK_SIZE;
         int startY = (wp.getY() - CULL_CHUNK_BORDERS_RANGE + CHUNK_SIZE - 1) / CHUNK_SIZE * CHUNK_SIZE;
@@ -66,13 +63,6 @@ public class ChunkEdgeOverlay extends Overlay {
 
         for (int x = startX; x <= endX; x += CHUNK_SIZE)
         {
-            LocalPoint lp1 = LocalPoint.fromWorld(client, x, wp.getY() - CULL_CHUNK_BORDERS_RANGE);
-            LocalPoint lp2 = LocalPoint.fromWorld(client, x, wp.getY() + CULL_CHUNK_BORDERS_RANGE);
-            if (lp1 == null || lp2 == null)
-            {
-                continue;
-            }
-
             for (int y = startY; y <= endY; y += CHUNK_SIZE) {
 
                 int currChunkId = ((x >> 3) << 16) | (y >> 3);
@@ -82,16 +72,18 @@ public class ChunkEdgeOverlay extends Overlay {
                 boolean westChunkUnlocked = unlockedChunks.contains(Integer.toString(westChunkId));
 
                 if (currChunkUnlocked ^ westChunkUnlocked) {
-                    debug_weChunkLines.put(westChunkId, currChunkId);
 
                     LocalPoint lp_test1 = LocalPoint.fromWorld(client, x, y);
                     LocalPoint lp_test2 = LocalPoint.fromWorld(client, x, y+8);
+                    if (lp_test1 == null || lp_test2 == null) {
+                        continue;
+                    }
 
                     boolean first = true;
                     for (int tile_y = lp_test1.getY(); tile_y <= lp_test2.getY(); tile_y += LOCAL_TILE_SIZE)
                     {
                         net.runelite.api.Point p = Perspective.localToCanvas(client,
-                                new LocalPoint(lp1.getX() - LOCAL_TILE_SIZE / 2, tile_y - LOCAL_TILE_SIZE / 2),
+                                new LocalPoint(lp_test1.getX() - LOCAL_TILE_SIZE / 2, tile_y - LOCAL_TILE_SIZE / 2),
                                 client.getPlane());
                         if (p != null)
                         {
@@ -112,12 +104,6 @@ public class ChunkEdgeOverlay extends Overlay {
 
         for (int y = startY; y <= endY; y += CHUNK_SIZE)
         {
-            LocalPoint lp1 = LocalPoint.fromWorld(client, wp.getX() - CULL_CHUNK_BORDERS_RANGE, y);
-            LocalPoint lp2 = LocalPoint.fromWorld(client, wp.getX() + CULL_CHUNK_BORDERS_RANGE, y);
-            if (lp1 == null || lp2 == null)
-            {
-                continue;
-            }
 
             for (int x = startX; x <= endX; x += CHUNK_SIZE) {
 
@@ -128,16 +114,18 @@ public class ChunkEdgeOverlay extends Overlay {
                 boolean southChunkUnlocked = unlockedChunks.contains(Integer.toString(southChunkId));
 
                 if (currChunkUnlocked ^ southChunkUnlocked) {
-                    debug_snChunkLines.put(southChunkId, currChunkId);
 
                     LocalPoint lp_test1 = LocalPoint.fromWorld(client, x, y);
                     LocalPoint lp_test2 = LocalPoint.fromWorld(client, x+8, y);
+                    if (lp_test1 == null || lp_test2 == null) {
+                        continue;
+                    }
 
                     boolean first = true;
                     for (int tile_x = lp_test1.getX(); tile_x <= lp_test2.getX(); tile_x += LOCAL_TILE_SIZE)
                     {
                         net.runelite.api.Point p = Perspective.localToCanvas(client,
-                                new LocalPoint(tile_x - LOCAL_TILE_SIZE / 2, lp1.getY() - LOCAL_TILE_SIZE / 2),
+                                new LocalPoint(tile_x - LOCAL_TILE_SIZE / 2, lp_test1.getY() - LOCAL_TILE_SIZE / 2),
                                 client.getPlane());
                         if (p != null)
                         {
@@ -159,10 +147,4 @@ public class ChunkEdgeOverlay extends Overlay {
 
         graphics.draw(path);
     }
-
-    public void printDebug() {
-        System.out.println(debug_weChunkLines);
-        System.out.println(debug_snChunkLines);
-    }
-
 }

@@ -130,6 +130,6 @@ public class ChunkLockerPlugin extends Plugin
     }
 
     public void onRollKeyReleased() {
-        chunkEdgeOverlay.printDebug();
+        chunkLockerOverlay.rollChunk();
     }
 }

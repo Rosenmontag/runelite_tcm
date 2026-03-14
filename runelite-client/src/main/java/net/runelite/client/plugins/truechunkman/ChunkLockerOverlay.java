@@ -12,6 +12,9 @@ import net.runelite.client.ui.overlay.OverlayPosition;
 
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class ChunkLockerOverlay extends Overlay {
     private static final Color WHITE_TRANSLUCENT = new Color(255, 255, 255, 127);
@@ -23,6 +26,8 @@ public class ChunkLockerOverlay extends Overlay {
     private final Client client;
     private final ChunkLockerPlugin chunkLockerPlugin;
     private final ChunkLockerConfig config;
+
+    private int rolledChunk = -1;
 
     @Inject
     private ChunkLockerOverlay(Client client, ChunkLockerPlugin chunkLockerPlugin, ChunkLockerConfig config)
@@ -103,7 +108,13 @@ public class ChunkLockerOverlay extends Overlay {
                     }
                     else if (unlockable)
                     {
-                        color = config.unlockableOverlayColor();
+                        if (regionId == rolledChunk) {
+                            color = config.rolledOverlayColor();
+                        }
+                        else
+                        {
+                            color = config.unlockableOverlayColor();
+                        }
                     }
                     else
                     {
@@ -138,6 +149,13 @@ public class ChunkLockerOverlay extends Overlay {
             graphics.drawString("Player chunk: " + regionText, (int) worldMapRect.getX() + LABEL_PADDING, (int) (worldMapRect.getY() + worldMapRect.getHeight()) - LABEL_PADDING);
         }
 
+    }
+
+    public void rollChunk() {
+        Widget map = client.getWidget(InterfaceID.Worldmap.MAP_CONTAINER);
+        if (map == null) return;
+
+        rolledChunk = ChunkLocker.rollChunk();
     }
 
 }

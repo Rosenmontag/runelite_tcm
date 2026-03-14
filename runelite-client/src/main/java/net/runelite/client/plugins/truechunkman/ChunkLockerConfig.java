@@ -188,6 +188,8 @@ public interface ChunkLockerConfig extends Config{
         return new Color(0, 0, 0, 204);
     }
 
+
+
     @ConfigItem(
             keyName = "hardBorder",
             name = "Hard chunk border",
@@ -262,6 +264,19 @@ public interface ChunkLockerConfig extends Config{
     default Color blacklistedOverlayColor()
     {
         return new Color(0, 0, 0, 200);
+    }
+
+    @Alpha
+    @ConfigItem(
+            keyName = "rolledOverlayColor",
+            name = "Rolled chunk overlay color",
+            description = "The color the map overlay will draw the most recently rolled chunk",
+            section = environmentSettings,
+            position = 20
+    )
+    default Color rolledOverlayColor()
+    {
+        return new Color(255, 100, 250, 200);
     }
 
     @ConfigItem(
