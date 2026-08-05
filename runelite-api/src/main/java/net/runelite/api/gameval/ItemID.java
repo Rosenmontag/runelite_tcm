@@ -31172,14 +31172,24 @@ public final class ItemID
 	public static final int ALUFT_BAKED_VEG_BATTA = 9486;
 
 	/**
-	 * Wizard blizzard
+	 * Cocktail glass
 	 */
 	public static final int ALUFT_COCTAIL_GLASS_EMPTY = 9487;
 
 	/**
-	 * Wizard blizzard
+	 * Cocktail glass
+	 */
+	public static final int CERT_ALUFT_COCTAIL_GLASS_EMPTY = 9488;
+
+	/**
+	 * Cocktail glass
 	 */
 	public static final int ALUFT_COCTAIL_GLASS_EMPTY_DUMMY = 9489;
+
+	/**
+	 * Cocktail glass
+	 */
+	public static final int CERT_ALUFT_COCTAIL_GLASS_EMPTY_DUMMY = 9490;
 	public static final int ALUFT_BOTTLE_DUMMY = 9491;
 	public static final int ALUFT_LEMON_DUMMY = 9492;
 	public static final int ALUFT_ORANGE_DUMMY = 9493;
@@ -32029,7 +32039,7 @@ public final class ItemID
 	public static final int ELEM_MIND_HELM = 9733;
 
 	/**
-	 * Desert goat horn
+	 * Goat horn
 	 */
 	public static final int DESERT_GOAT_HORN = 9735;
 
@@ -46495,6 +46505,21 @@ public final class ItemID
 	 * Pharaoh's sceptre
 	 */
 	public static final int PLACEHOLDER_NTK_JEWELLED_SCEPTRE_8 = 16176;
+
+	/**
+	 * Stake
+	 */
+	public static final int PLACEHOLDER_STAKE = 16492;
+
+	/**
+	 * Golden key
+	 */
+	public static final int PLACEHOLDER_PIPKEY_GOLD = 16494;
+
+	/**
+	 * Iron key
+	 */
+	public static final int PLACEHOLDER_PIPKEY_IRON = 16495;
 
 	/**
 	 * Useless key
@@ -76184,7 +76209,7 @@ public final class ItemID
 	public static final int TELEPORTSCROLL_SPIDERCAVE = 29782;
 
 	/**
-	 * Araxyte venom sack
+	 * Araxyte venom sac
 	 */
 	public static final int ARAXYTE_VENOM_SACK = 29784;
 
@@ -78432,7 +78457,7 @@ public final class ItemID
 	public static final int LEAGUE_5_DEATH_SCROLL = 30455;
 
 	/**
-	 * Raging echoes npc contact scroll
+	 * Raging echoes astral contact scroll
 	 */
 	public static final int LEAGUE_5_CONTACT_SCROLL = 30457;
 
@@ -87730,6 +87755,1402 @@ public final class ItemID
 	 */
 	public static final int SKILLCAPE_MAX_DIZANAS_TROUVER_MANGLED = 33533;
 
+	/**
+	 * Etched araxyte fang
+	 */
+	public static final int ETCHED_ARAXYTE_FANG = 33534;
+
+	/**
+	 * Garlic cocktail
+	 */
+	public static final int GARLIC_COCKTAIL = 33537;
+
+	/**
+	 * Bucket of bloodwood sap
+	 */
+	public static final int BUCKET_OF_BLOODWOOD_SAP = 33539;
+
+	/**
+	 * Seeking arrow shaft
+	 */
+	public static final int SEEKING_ARROW_SHAFT = 33541;
+	public static final int SEEKING_ARROW_SHAFT_2 = 33543;
+	public static final int SEEKING_ARROW_SHAFT_3 = 33544;
+	public static final int SEEKING_ARROW_SHAFT_4 = 33545;
+	public static final int SEEKING_ARROW_SHAFT_5 = 33546;
+
+	/**
+	 * Seeking headless arrow
+	 */
+	public static final int SEEKING_HEADLESS_ARROW = 33547;
+	public static final int SEEKING_HEADLESS_ARROW_2 = 33549;
+	public static final int SEEKING_HEADLESS_ARROW_3 = 33550;
+	public static final int SEEKING_HEADLESS_ARROW_4 = 33551;
+	public static final int SEEKING_HEADLESS_ARROW_5 = 33552;
+
+	/**
+	 * Seeking bronze arrow
+	 */
+	public static final int SEEKING_BRONZE_ARROW = 33553;
+	public static final int SEEKING_BRONZE_ARROW_2 = 33555;
+	public static final int SEEKING_BRONZE_ARROW_3 = 33556;
+	public static final int SEEKING_BRONZE_ARROW_4 = 33557;
+	public static final int SEEKING_BRONZE_ARROW_5 = 33558;
+
+	/**
+	 * Seeking iron arrow
+	 */
+	public static final int SEEKING_IRON_ARROW = 33559;
+	public static final int SEEKING_IRON_ARROW_2 = 33561;
+	public static final int SEEKING_IRON_ARROW_3 = 33562;
+	public static final int SEEKING_IRON_ARROW_4 = 33563;
+	public static final int SEEKING_IRON_ARROW_5 = 33564;
+
+	/**
+	 * Seeking steel arrow
+	 */
+	public static final int SEEKING_STEEL_ARROW = 33565;
+	public static final int SEEKING_STEEL_ARROW_2 = 33567;
+	public static final int SEEKING_STEEL_ARROW_3 = 33568;
+	public static final int SEEKING_STEEL_ARROW_4 = 33569;
+	public static final int SEEKING_STEEL_ARROW_5 = 33570;
+
+	/**
+	 * Seeking mithril arrow
+	 */
+	public static final int SEEKING_MITHRIL_ARROW = 33571;
+	public static final int SEEKING_MITHRIL_ARROW_2 = 33573;
+	public static final int SEEKING_MITHRIL_ARROW_3 = 33574;
+	public static final int SEEKING_MITHRIL_ARROW_4 = 33575;
+	public static final int SEEKING_MITHRIL_ARROW_5 = 33576;
+
+	/**
+	 * Seeking adamant arrow
+	 */
+	public static final int SEEKING_ADAMANT_ARROW = 33577;
+	public static final int SEEKING_ADAMANT_ARROW_2 = 33579;
+	public static final int SEEKING_ADAMANT_ARROW_3 = 33580;
+	public static final int SEEKING_ADAMANT_ARROW_4 = 33581;
+	public static final int SEEKING_ADAMANT_ARROW_5 = 33582;
+
+	/**
+	 * Seeking rune arrow
+	 */
+	public static final int SEEKING_RUNE_ARROW = 33583;
+	public static final int SEEKING_RUNE_ARROW_2 = 33585;
+	public static final int SEEKING_RUNE_ARROW_3 = 33586;
+	public static final int SEEKING_RUNE_ARROW_4 = 33587;
+	public static final int SEEKING_RUNE_ARROW_5 = 33588;
+
+	/**
+	 * Seeking amethyst arrow
+	 */
+	public static final int SEEKING_AMETHYST_ARROW = 33589;
+	public static final int SEEKING_AMETHYST_ARROW_2 = 33591;
+	public static final int SEEKING_AMETHYST_ARROW_3 = 33592;
+	public static final int SEEKING_AMETHYST_ARROW_4 = 33593;
+	public static final int SEEKING_AMETHYST_ARROW_5 = 33594;
+
+	/**
+	 * Seeking dragon arrow
+	 */
+	public static final int SEEKING_DRAGON_ARROW = 33595;
+	public static final int SEEKING_DRAGON_ARROW2 = 33597;
+	public static final int SEEKING_DRAGON_ARROW3 = 33598;
+	public static final int SEEKING_DRAGON_ARROW4 = 33599;
+	public static final int SEEKING_DRAGON_ARROW5 = 33600;
+
+	/**
+	 * Seeking broad arrows
+	 */
+	public static final int SEEKING_SLAYER_BROAD_ARROWS = 33601;
+	public static final int SEEKING_SLAYER_BROAD_ARROWS_5 = 33603;
+	public static final int SEEKING_SLAYER_BROAD_ARROWS_4 = 33604;
+	public static final int SEEKING_SLAYER_BROAD_ARROWS_3 = 33605;
+	public static final int SEEKING_SLAYER_BROAD_ARROWS_2 = 33606;
+
+	/**
+	 * Sap-treated logs
+	 */
+	public static final int SAP_TREATED_LOGS = 33607;
+
+	/**
+	 * Sap-treated magic logs
+	 */
+	public static final int SAP_TREATED_MAGIC_LOGS = 33609;
+
+	/**
+	 * Sap-treated yew logs
+	 */
+	public static final int SAP_TREATED_YEW_LOGS = 33611;
+
+	/**
+	 * Sap-treated maple logs
+	 */
+	public static final int SAP_TREATED_MAPLE_LOGS = 33613;
+
+	/**
+	 * Sap-treated willow logs
+	 */
+	public static final int SAP_TREATED_WILLOW_LOGS = 33615;
+
+	/**
+	 * Sap-treated oak logs
+	 */
+	public static final int SAP_TREATED_OAK_LOGS = 33617;
+
+	/**
+	 * Sap-treated redwood logs
+	 */
+	public static final int SAP_TREATED_REDWOOD_LOGS = 33619;
+
+	/**
+	 * Leechfin
+	 */
+	public static final int LEECHFIN = 33621;
+
+	/**
+	 * Blood sac
+	 */
+	public static final int BLOOD_SAC = 33623;
+
+	/**
+	 * Letvek
+	 */
+	public static final int LETVEK = 33625;
+
+	/**
+	 * Dull ancient medal
+	 */
+	public static final int DULL_ZAROSIAN_MEDAL = 33627;
+
+	/**
+	 * Stymphike tartare
+	 */
+	public static final int STYMPHIKE_TARTARE = 33628;
+
+	/**
+	 * Rotten stymphike tartare
+	 */
+	public static final int ROTTEN_STYMPHIKE_TARTARE = 33629;
+
+	/**
+	 * Supplies
+	 */
+	public static final int SUPPLY_DROP_DUMMY = 33630;
+
+	/**
+	 * Crimson kisten
+	 */
+	public static final int CRIMSON_KISTEN = 33631;
+
+	/**
+	 * Elder venator fang
+	 */
+	public static final int ELDER_VENATOR_FANG = 33634;
+
+	/**
+	 * Etched elder venator fang
+	 */
+	public static final int ETCHED_ELDER_VENATOR_FANG = 33636;
+
+	/**
+	 * Necklace of rupture
+	 */
+	public static final int NECKLACE_OF_RUPTURE = 33639;
+
+	/**
+	 * Maggot marquess
+	 */
+	public static final int MAGGOTKINGPET = 33642;
+
+	/**
+	 * Dummy stymphike feather
+	 */
+	public static final int DUMMY_STYMPHIKE_FEATHER01 = 33644;
+	public static final int RUPTURE_NECKLACE_FANG_DUMMY = 33647;
+	public static final int RUPTURE_NECKLACE_ZENYTE_DUMMY = 33648;
+	public static final int RUPTURE_NECKLACE_RUPTURE01_DUMMY = 33649;
+	public static final int RUPTURE_NECKLACE_RUPTURE02_DUMMY = 33650;
+
+	/**
+	 * Stymphike feather
+	 */
+	public static final int STYMPHIKE_FEATHER = 33651;
+
+	/**
+	 * Stymphike carcass
+	 */
+	public static final int STYMPHIKE_CARCASS = 33653;
+
+	/**
+	 * Makeshift spear
+	 */
+	public static final int HUNTING_STYMPHIKE_SPEAR = 33655;
+
+	/**
+	 * Orikalkum gravel
+	 */
+	public static final int ORIKALKUM_GRAVEL = 33657;
+
+	/**
+	 * Grapevine
+	 */
+	public static final int GRAPEVINE = 33659;
+
+	/**
+	 * Venator fang
+	 */
+	public static final int VENATOR_FANG = 33661;
+
+	/**
+	 * Venator tooth
+	 */
+	public static final int VENATOR_TOOTH = 33663;
+
+	/**
+	 * Maggot egg
+	 */
+	public static final int MAGGOT_EGG = 33665;
+
+	/**
+	 * Maggot egg
+	 */
+	public static final int SICKLY_MAGGOT_EGG = 33667;
+
+	/**
+	 * Maggot egg
+	 */
+	public static final int WARM_MAGGOT_EGG = 33669;
+
+	/**
+	 * Maggot egg
+	 */
+	public static final int PULSATING_MAGGOT_EGG = 33671;
+
+	/**
+	 * Maggot egg
+	 */
+	public static final int WRIGGLING_MAGGOT_EGG = 33673;
+
+	/**
+	 * Maggot egg
+	 */
+	public static final int WRITHING_MAGGOT_EGG = 33675;
+
+	/**
+	 * Tarnished longsword
+	 */
+	public static final int TARNISHED_LONGSWORD = 33677;
+
+	/**
+	 * Tarnished spear
+	 */
+	public static final int TARNISHED_SPEAR = 33679;
+
+	/**
+	 * Tarnished 2h sword
+	 */
+	public static final int TARNISHED_2H_SWORD = 33681;
+
+	/**
+	 * Tarnished battleaxe
+	 */
+	public static final int TARNISHED_BATTLEAXE = 33683;
+
+	/**
+	 * Tarnished halberd
+	 */
+	public static final int TARNISHED_HALBERD = 33685;
+
+	/**
+	 * Tarnished ring
+	 */
+	public static final int TARNISHED_RING = 33687;
+
+	/**
+	 * Tarnished bracelet
+	 */
+	public static final int TARNISHED_BRACELET = 33689;
+
+	/**
+	 * Tarnished necklace
+	 */
+	public static final int TARNISHED_NECKLACE = 33691;
+
+	/**
+	 * Tarnished amulet
+	 */
+	public static final int TARNISHED_AMULET = 33693;
+
+	/**
+	 * Venator heart
+	 */
+	public static final int VENATOR_HEART = 33695;
+
+	/**
+	 * Dried out venator heart
+	 */
+	public static final int DRIED_OUT_VENATOR_HEART = 33697;
+
+	/**
+	 * Vial
+	 */
+	public static final int BR_VIAL_EMPTY = 33699;
+
+	/**
+	 * Squire's journal
+	 */
+	public static final int MYQ6_SQUIRE_JOURNAL = 33701;
+
+	/**
+	 * From Misthalin to Morytania
+	 */
+	public static final int MYQ6_IRIANDUL_JOURNAL = 33702;
+
+	/**
+	 * Sarl's journal
+	 */
+	public static final int MYQ6_SARL_JOURNAL = 33703;
+
+	/**
+	 * Scruffy notebook
+	 */
+	public static final int MYQ6_DERYGULL_JOURNAL = 33704;
+
+	/**
+	 * Pious proceedings
+	 */
+	public static final int MYQ6_ERYSAIL_JOURNAL = 33705;
+
+	/**
+	 * The Life of Friar
+	 */
+	public static final int MYQ6_FRIAR_JOURNAL = 33706;
+
+	/**
+	 * Essiandar's notes
+	 */
+	public static final int MYQ6_ESSIANDAR_JOURNAL = 33707;
+
+	/**
+	 * Ivandis' writings
+	 */
+	public static final int MYQ6_IVANDIS_WRITINGS = 33708;
+
+	/**
+	 * Diamond sickle (b)
+	 */
+	public static final int SILVER_SICKLE_DIAMOND = 33709;
+
+	/**
+	 * Enchanted diamond sickle (b)
+	 */
+	public static final int SILVER_SICKLE_DIAMOND_ENCHANTED = 33711;
+
+	/**
+	 * Blisterwood sickle (e)
+	 */
+	public static final int BLISTERWOOD_SICKLE_ENHANCED = 33713;
+
+	/**
+	 * Tome of experience
+	 */
+	public static final int MYQ6_XP_TOME = 33715;
+
+	/**
+	 * Blisterwood stake
+	 */
+	public static final int BLISTERWOOD_STAKE = 33716;
+
+	/**
+	 * Hallowed flail
+	 */
+	public static final int HALLOWED_FLAIL = 33718;
+
+	/**
+	 * Ivan strom
+	 */
+	public static final int MYQ6_IVAN_FOLLOWER_OBJ = 33720;
+
+	/**
+	 * Veliaf hurtz
+	 */
+	public static final int MYQ6_VELIAF_FOLLOWER_OBJ = 33721;
+
+	/**
+	 * Sunspear
+	 */
+	public static final int SUNSPEAR = 33722;
+
+	/**
+	 * Full moon key
+	 */
+	public static final int CASTLE_DRAKAN_FULL_MOON_KEY = 33724;
+
+	/**
+	 * Half moon key
+	 */
+	public static final int CASTLE_DRAKAN_HALF_MOON_KEY = 33725;
+
+	/**
+	 * Crescent moon key
+	 */
+	public static final int CASTLE_DRAKAN_CRESCENT_MOON_KEY = 33726;
+
+	/**
+	 * Gibbous moon key
+	 */
+	public static final int CASTLE_DRAKAN_GIBBOUS_MOON_KEY = 33727;
+
+	/**
+	 * New moon key
+	 */
+	public static final int CASTLE_DRAKAN_NEW_MOON_KEY = 33728;
+
+	/**
+	 * Gilded key
+	 */
+	public static final int CASTLE_DRAKAN_GILDED_KEY = 33729;
+
+	/**
+	 * Solid key
+	 */
+	public static final int CASTLE_DRAKAN_LAB_KEY = 33730;
+
+	/**
+	 * Drakan emblem
+	 */
+	public static final int CASTLE_DRAKAN_DRAKAN_EMBLEM_1 = 33731;
+
+	/**
+	 * Drakan emblem
+	 */
+	public static final int CASTLE_DRAKAN_DRAKAN_EMBLEM_2 = 33732;
+
+	/**
+	 * Drakan emblem
+	 */
+	public static final int CASTLE_DRAKAN_DRAKAN_EMBLEM_3 = 33733;
+
+	/**
+	 * Left crest half
+	 */
+	public static final int CASTLE_DRAKAN_LEFT_CREST_HALF = 33734;
+
+	/**
+	 * Right crest half
+	 */
+	public static final int CASTLE_DRAKAN_RIGHT_CREST_HALF = 33735;
+
+	/**
+	 * Full crest
+	 */
+	public static final int CASTLE_DRAKAN_FULL_CREST = 33736;
+
+	/**
+	 * Ancient symbol
+	 */
+	public static final int CASTLE_DRAKAN_ANCIENT_SYMBOL = 33737;
+
+	/**
+	 * Ancient shield
+	 */
+	public static final int CASTLE_DRAKAN_ANCIENT_SHIELD = 33738;
+
+	/**
+	 * Shield with symbol
+	 */
+	public static final int CASTLE_DRAKAN_SHIELD_WITH_SYMBOL = 33739;
+
+	/**
+	 * Ornate knife
+	 */
+	public static final int CASTLE_DRAKAN_ORNATE_KNIFE = 33740;
+
+	/**
+	 * Ornate skull
+	 */
+	public static final int CASTLE_DRAKAN_ORNATE_SKULL = 33741;
+
+	/**
+	 * Ornate hourglass
+	 */
+	public static final int CASTLE_DRAKAN_ORNATE_HOURGLASS = 33742;
+
+	/**
+	 * Explosive barrel
+	 */
+	public static final int CASTLE_DRAKAN_POTENT_BARREL = 33743;
+
+	/**
+	 * Small clock hand
+	 */
+	public static final int CASTLE_DRAKAN_SMALL_CLOCK_HAND = 33744;
+
+	/**
+	 * Large clock hand
+	 */
+	public static final int CASTLE_DRAKAN_LARGE_CLOCK_HAND = 33745;
+
+	/**
+	 * Poem scroll
+	 */
+	public static final int CASTLE_DRAKAN_POEM_SCROLL = 33746;
+
+	/**
+	 * Sink plug
+	 */
+	public static final int CASTLE_DRAKAN_SINK_PLUG = 33747;
+
+	/**
+	 * Broken pipe
+	 */
+	public static final int CASTLE_DRAKAN_BROKEN_PIPE = 33748;
+
+	/**
+	 * Sharp knife
+	 */
+	public static final int CASTLE_DRAKAN_SHARP_KNIFE = 33749;
+
+	/**
+	 * Tongs
+	 */
+	public static final int CASTLE_DRAKAN_TONGS = 33750;
+
+	/**
+	 * Syringe needle
+	 */
+	public static final int CASTLE_DRAKAN_SYRINGE_NEEDLE = 33751;
+
+	/**
+	 * Syringe barrel
+	 */
+	public static final int CASTLE_DRAKAN_SYRINGE_BARREL = 33752;
+
+	/**
+	 * Syringe plunger
+	 */
+	public static final int CASTLE_DRAKAN_SYRINGE_PLUNGER = 33753;
+
+	/**
+	 * Empty syringe
+	 */
+	public static final int CASTLE_DRAKAN_EMPTY_SYRINGE = 33754;
+
+	/**
+	 * Full syringe
+	 */
+	public static final int CASTLE_DRAKAN_FULL_SYRINGE = 33755;
+
+	/**
+	 * Venator stomach
+	 */
+	public static final int CASTLE_DRAKAN_VENATOR_STOMACH = 33756;
+
+	/**
+	 * Sword
+	 */
+	public static final int CASTLE_DRAKAN_OLD_SWORD = 33757;
+
+	/**
+	 * Spear
+	 */
+	public static final int CASTLE_DRAKAN_OLD_SPEAR = 33758;
+
+	/**
+	 * Battleaxe
+	 */
+	public static final int CASTLE_DRAKAN_OLD_BATTLEAXE = 33759;
+
+	/**
+	 * Mace
+	 */
+	public static final int CASTLE_DRAKAN_OLD_MACE = 33760;
+
+	/**
+	 * Lockbox
+	 */
+	public static final int CASTLE_DRAKAN_LOCKBOX = 33761;
+
+	/**
+	 * Ancestral dagger
+	 */
+	public static final int CASTLE_DRAKAN_ANCESTRAL_DAGGER = 33762;
+
+	/**
+	 * Grid note
+	 */
+	public static final int CASTLE_DRAKAN_GRID_NOTE = 33763;
+
+	/**
+	 * Mysterious book
+	 */
+	public static final int CASTLE_DRAKAN_MYSTERIOUS_BOOK = 33764;
+
+	/**
+	 * Fancy gem
+	 */
+	public static final int CASTLE_DRAKAN_FANCY_GEM_1 = 33765;
+
+	/**
+	 * Fancy gem
+	 */
+	public static final int CASTLE_DRAKAN_FANCY_GEM_2 = 33766;
+
+	/**
+	 * Gilded book
+	 */
+	public static final int CASTLE_DRAKAN_GILDED_BOOK = 33767;
+
+	/**
+	 * Vampyre book
+	 */
+	public static final int CASTLE_DRAKAN_LANGUAGE_BOOK = 33768;
+
+	/**
+	 * Cloudy grey potion
+	 */
+	public static final int CASTLE_DRAKAN_CLOUDY_GREY_POTION = 33769;
+
+	/**
+	 * Weightless black potion
+	 */
+	public static final int CASTLE_DRAKAN_WEIGHTLESS_BLACK_POTION = 33770;
+
+	/**
+	 * Thick red potion
+	 */
+	public static final int CASTLE_DRAKAN_THICK_RED_POTION = 33771;
+
+	/**
+	 * Cold bluish-white potion
+	 */
+	public static final int CASTLE_DRAKAN_COLD_WHITE_POTION = 33772;
+
+	/**
+	 * Lab notes
+	 */
+	public static final int CASTLE_DRAKAN_LAB_NOTES = 33773;
+
+	/**
+	 * Vial of water
+	 */
+	public static final int CASTLE_DRAKAN_VIAL_OF_WATER = 33774;
+
+	/**
+	 * Vial of blood
+	 */
+	public static final int CASTLE_DRAKAN_VIAL_OF_BLOOD = 33775;
+
+	/**
+	 * Pure essence
+	 */
+	public static final int CASTLE_DRAKAN_PURE_ESSENCE = 33776;
+
+	/**
+	 * Daeyalt ore
+	 */
+	public static final int CASTLE_DRAKAN_DAEYALT_ORE = 33777;
+
+	/**
+	 * Chemical vial
+	 */
+	public static final int CASTLE_DRAKAN_CHEMICAL_VIAL = 33778;
+
+	/**
+	 * Old cog
+	 */
+	public static final int SANGVESTI_COG = 33779;
+
+	/**
+	 * Jovkai key
+	 */
+	public static final int SANGVESTI_JOVKAI_KEY = 33780;
+
+	/**
+	 * Loop half of key
+	 */
+	public static final int SANGVESTI_MYRMEL_KEY_LOOP = 33781;
+
+	/**
+	 * Tooth half of key
+	 */
+	public static final int SANGVESTI_MYRMEL_KEY_TOOTH = 33782;
+
+	/**
+	 * Myrmel key
+	 */
+	public static final int SANGVESTI_MYRMEL_KEY = 33783;
+
+	/**
+	 * Shadum key
+	 */
+	public static final int SANGVESTI_SHADUM_KEY = 33784;
+
+	/**
+	 * Vitur key
+	 */
+	public static final int SANGVESTI_VITUR_KEY = 33785;
+
+	/**
+	 * Trapdoor key
+	 */
+	public static final int SANGVESTI_TRAPDOOR_KEY = 33786;
+
+	/**
+	 * Bolt cutters
+	 */
+	public static final int SANGVESTI_BOLT_CUTTERS = 33787;
+
+	/**
+	 * Crank wheel
+	 */
+	public static final int SANGVESTI_CRANK_WHEEL = 33788;
+
+	/**
+	 * Dusty book
+	 */
+	public static final int SANGVESTI_VITUR_KEY_BOOK = 33789;
+
+	/**
+	 * Spine
+	 */
+	public static final int SOTFA_FOREST_TALON = 33790;
+
+	/**
+	 * Dead blood serpent
+	 */
+	public static final int SOTFA_FOREST_DEAD_BLOOD_SERPENT = 33791;
+
+	/**
+	 * Serpent rope
+	 */
+	public static final int SOTFA_FOREST_ROPE = 33792;
+
+	/**
+	 * Tick
+	 */
+	public static final int SOTFA_FOREST_TICK = 33793;
+
+	/**
+	 * Tattered journal
+	 */
+	public static final int SOTFA_FOREST_JOURNAL = 33794;
+
+	/**
+	 * Rotten diary
+	 */
+	public static final int MYQ6_ROTTEN_DIARY = 33795;
+
+	/**
+	 * Amitire leaves
+	 */
+	public static final int MYQ6_LEAVES = 33796;
+
+	/**
+	 * Amitire stew
+	 */
+	public static final int MYQ6_STEW = 33797;
+
+	/**
+	 * Hallowed marks
+	 */
+	public static final int MYQ6_HALLOWED_MARKS = 33798;
+
+	/**
+	 * Healing potion
+	 */
+	public static final int MYQ6_ENTRY_HALL_POTION = 33799;
+
+	/**
+	 * Silvthrill ballista
+	 */
+	public static final int MYQ6_BALLISTA = 33800;
+
+	/**
+	 * Silvthrill javelin
+	 */
+	public static final int MYQ6_JAVELIN = 33801;
+
+	/**
+	 * Mysterious jerky
+	 */
+	public static final int VAMPYRIUM_MYSTERY_JERKY = 33802;
+
+	/**
+	 * Putrid sticky potion (4)
+	 */
+	public static final int VAMPYRIUM_STICKY_POTION_4 = 33803;
+
+	/**
+	 * Putrid sticky potion (3)
+	 */
+	public static final int VAMPYRIUM_STICKY_POTION_3 = 33804;
+
+	/**
+	 * Putrid sticky potion (2)
+	 */
+	public static final int VAMPYRIUM_STICKY_POTION_2 = 33805;
+
+	/**
+	 * Putrid sticky potion (1)
+	 */
+	public static final int VAMPYRIUM_STICKY_POTION_1 = 33806;
+
+	/**
+	 * Foul chunky potion (4)
+	 */
+	public static final int VAMPYRIUM_CHUNKY_POTION_4 = 33807;
+
+	/**
+	 * Foul chunky potion (3)
+	 */
+	public static final int VAMPYRIUM_CHUNKY_POTION_3 = 33808;
+
+	/**
+	 * Foul chunky potion (2)
+	 */
+	public static final int VAMPYRIUM_CHUNKY_POTION_2 = 33809;
+
+	/**
+	 * Foul chunky potion (1)
+	 */
+	public static final int VAMPYRIUM_CHUNKY_POTION_1 = 33810;
+
+	/**
+	 * Rancid slimy potion (4)
+	 */
+	public static final int VAMPYRIUM_SLIMY_POTION_4 = 33811;
+
+	/**
+	 * Rancid slimy potion (3)
+	 */
+	public static final int VAMPYRIUM_SLIMY_POTION_3 = 33812;
+
+	/**
+	 * Rancid slimy potion (2)
+	 */
+	public static final int VAMPYRIUM_SLIMY_POTION_2 = 33813;
+
+	/**
+	 * Rancid slimy potion (1)
+	 */
+	public static final int VAMPYRIUM_SLIMY_POTION_1 = 33814;
+
+	/**
+	 * Rank frothy potion (4)
+	 */
+	public static final int VAMPYRIUM_FROTHY_POTION_4 = 33815;
+
+	/**
+	 * Rank frothy potion (3)
+	 */
+	public static final int VAMPYRIUM_FROTHY_POTION_3 = 33816;
+
+	/**
+	 * Rank frothy potion (2)
+	 */
+	public static final int VAMPYRIUM_FROTHY_POTION_2 = 33817;
+
+	/**
+	 * Rank frothy potion (1)
+	 */
+	public static final int VAMPYRIUM_FROTHY_POTION_1 = 33818;
+
+	/**
+	 * Jar of congealed blood
+	 */
+	public static final int VAMPYRIUM_CONGEALED_BLOOD = 33819;
+
+	/**
+	 * Smelly kebab
+	 */
+	public static final int VAMPYRIUM_MYSTERY_KEBAB = 33820;
+
+	/**
+	 * Raw impaler meat
+	 */
+	public static final int RAW_IMPALER_MEAT = 33821;
+
+	/**
+	 * Stymphike
+	 */
+	public static final int HUNTGUIDE_STYMPHIKE = 33824;
+
+	/**
+	 * Letvek
+	 */
+	public static final int HUNTGUIDE_LETVEK = 33825;
+
+	/**
+	 * Venator
+	 */
+	public static final int SLAYERGUIDE_VENATOR = 33826;
+
+	/**
+	 * Ancient sceptre (l) (broken)
+	 */
+	public static final int ANCIENT_SCEPTRE_TROUVER_BROKEN = 33827;
+
+	/**
+	 * Ancient sceptre (l) (mangled)
+	 */
+	public static final int ANCIENT_SCEPTRE_TROUVER_MANGLED = 33829;
+
+	/**
+	 * Letvek in a bucket
+	 */
+	public static final int LETVEK_IN_A_BUCKET = 33833;
+
+	/**
+	 * Wyrmscraig goat hoof
+	 */
+	public static final int HG_GOAT_PIT_HOOF = 33835;
+
+	/**
+	 * Noble robe top
+	 */
+	public static final int WYRMSCRAIG_NOBLE_ROBETOP01 = 33836;
+
+	/**
+	 * Noble robe top
+	 */
+	public static final int WYRMSCRAIG_NOBLE_ROBETOP02 = 33839;
+
+	/**
+	 * Noble robe top
+	 */
+	public static final int WYRMSCRAIG_NOBLE_ROBETOP03 = 33842;
+
+	/**
+	 * Noble robe top
+	 */
+	public static final int WYRMSCRAIG_NOBLE_ROBETOP04 = 33845;
+
+	/**
+	 * Noble robe top
+	 */
+	public static final int WYRMSCRAIG_NOBLE_ROBETOP05 = 33848;
+
+	/**
+	 * Noble robe top
+	 */
+	public static final int WYRMSCRAIG_NOBLE_ROBETOP06 = 33851;
+
+	/**
+	 * Noble robe top
+	 */
+	public static final int WYRMSCRAIG_NOBLE_ROBETOP07 = 33854;
+
+	/**
+	 * Wyrmscraig noble skirt
+	 */
+	public static final int WYRMSCRAIG_NOBLE_SKIRT01 = 33857;
+
+	/**
+	 * Wyrmscraig noble skirt
+	 */
+	public static final int WYRMSCRAIG_NOBLE_SKIRT02 = 33860;
+
+	/**
+	 * Wyrmscraig noble skirt
+	 */
+	public static final int WYRMSCRAIG_NOBLE_SKIRT03 = 33863;
+
+	/**
+	 * Wyrmscraig noble skirt
+	 */
+	public static final int WYRMSCRAIG_NOBLE_SKIRT04 = 33866;
+
+	/**
+	 * Wyrmscraig noble skirt
+	 */
+	public static final int WYRMSCRAIG_NOBLE_SKIRT05 = 33869;
+
+	/**
+	 * Wyrmscraig noble skirt
+	 */
+	public static final int WYRMSCRAIG_NOBLE_SKIRT06 = 33872;
+
+	/**
+	 * Wyrmscraig noble skirt
+	 */
+	public static final int WYRMSCRAIG_NOBLE_SKIRT07 = 33875;
+
+	/**
+	 * Wyrmscraig shoes
+	 */
+	public static final int WYRMSCRAIG_NOBLE_SHOES = 33878;
+
+	/**
+	 * Wyrmscraig boots
+	 */
+	public static final int WYRMSCRAIG_NOBLE_BOOTS = 33881;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBETOP01 = 33884;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBETOP02 = 33887;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBETOP03 = 33890;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBETOP04 = 33893;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBETOP05 = 33896;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBETOP06 = 33899;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBETOP07 = 33902;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBETOP08 = 33905;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED01 = 33908;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED02 = 33911;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED03 = 33914;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED04 = 33917;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED05 = 33920;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED06 = 33923;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED07 = 33926;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM01 = 33929;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM02 = 33932;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM03 = 33935;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM04 = 33938;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM05 = 33941;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM06 = 33944;
+
+	/**
+	 * Wyrmscraig villager robe bottom
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM07 = 33947;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP01 = 33950;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP02 = 33953;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP03 = 33956;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP04 = 33959;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP05 = 33962;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP06 = 33965;
+
+	/**
+	 * Wyrmscraig villager robe top
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP07 = 33968;
+
+	/**
+	 * Wyrmscraig villager skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_SKIRT01 = 33971;
+
+	/**
+	 * Wyrmscraig villager skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_SKIRT02 = 33974;
+
+	/**
+	 * Wyrmscraig villager skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_SKIRT03 = 33977;
+
+	/**
+	 * Wyrmscraig villager skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_SKIRT04 = 33980;
+
+	/**
+	 * Wyrmscraig villager skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_SKIRT05 = 33983;
+
+	/**
+	 * Wyrmscraig villager skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_SKIRT06 = 33986;
+
+	/**
+	 * Wyrmscraig villager skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_SKIRT07 = 33989;
+
+	/**
+	 * Wyrmscraig villager work skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT01 = 33992;
+
+	/**
+	 * Wyrmscraig villager work skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT02 = 33995;
+
+	/**
+	 * Wyrmscraig villager work skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT03 = 33998;
+
+	/**
+	 * Wyrmscraig villager work skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT04 = 34001;
+
+	/**
+	 * Wyrmscraig villager work skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT05 = 34004;
+
+	/**
+	 * Wyrmscraig villager work skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT06 = 34007;
+
+	/**
+	 * Wyrmscraig villager work skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT07 = 34010;
+
+	/**
+	 * Wyrmscraig villager work skirt
+	 */
+	public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT08 = 34013;
+
+	/**
+	 * Wooden spikes
+	 */
+	public static final int GOAT_PIT_SPIKES = 34016;
+
+	/**
+	 * Wyrmscraig goat fur
+	 */
+	public static final int GOAT_PIT_FUR = 34017;
+
+	/**
+	 * Sunstone
+	 */
+	public static final int SUNSTONE = 34020;
+
+	/**
+	 * Sunstone core
+	 */
+	public static final int SUNSTONE_CORE = 34022;
+
+	/**
+	 * Jeweller's chisel
+	 */
+	public static final int JEWELLERS_CHISEL = 34024;
+
+	/**
+	 * Golem crafting
+	 */
+	public static final int GOLEM_CRAFTING_DROPTRACKING = 34026;
+
+	/**
+	 * Hallowfell
+	 */
+	public static final int HALLOWFELL = 34027;
+
+	/**
+	 * Jar of light
+	 */
+	public static final int JAR_OF_LIGHT = 34030;
+
+	/**
+	 * Sunstone crystal
+	 */
+	public static final int SUNSTONE_CRYSTAL = 34032;
+
+	/**
+	 * Ardeaglais teleport
+	 */
+	public static final int TELEPORTSCROLL_ARDEAGLAIS = 34033;
+
+	/**
+	 * Placeholder
+	 */
+	public static final int MAD_ANGEL_SWORD = 34035;
+	public static final int TELEPORTSCROLL_ARDEAGLAIS_DUMMY = 34038;
+	public static final int TELEPORTSCROLL_ARDEAGLAIS_SELECTED_DUMMY = 34039;
+
+	/**
+	 * Mr mcgroot
+	 */
+	public static final int GOATPITPET = 34040;
+
+	/**
+	 * Aggy
+	 */
+	public static final int MADANGELPET = 34042;
+
+	/**
+	 * Large hat
+	 */
+	public static final int FFG_KEENANS_HAT = 34044;
+
+	/**
+	 * Worn journal
+	 */
+	public static final int FFG_HISTORY_BOOK = 34045;
+
+	/**
+	 * Scrawled notebook
+	 */
+	public static final int FFG_KEENANS_NOTES = 34046;
+	public static final int FFG_GOLEM_CHISEL_DUMMY = 34047;
+
+	/**
+	 * Scorched note
+	 */
+	public static final int ORTHACAS_NOTE_A = 34048;
+
+	/**
+	 * Scorched note
+	 */
+	public static final int ORTHACAS_NOTE_B = 34049;
+
+	/**
+	 * Scorched note
+	 */
+	public static final int ORTHACAS_NOTE_C = 34050;
+
+	/**
+	 * Observations
+	 */
+	public static final int WYRMSCRAIG_CATHEDRAL_DIARY = 34051;
+
+	/**
+	 * Warning note
+	 */
+	public static final int FFG_WARNING_NOTE = 34052;
+
+	/**
+	 * Golem primer
+	 */
+	public static final int WYRMSCRAIG_GOLEM_PRIMER = 34053;
+
+	/**
+	 * Ancient sunstone core
+	 */
+	public static final int FFG_OLD_GOLEM_CORE = 34054;
+
+	/**
+	 * Staircase key
+	 */
+	public static final int FFG_STAIRCASE_KEY = 34055;
+
+	/**
+	 * Dull sunstone core
+	 */
+	public static final int DULL_SUNSTONE_CORE = 34056;
+
+	/**
+	 * Final letter
+	 */
+	public static final int FFG_FINAL_NOTE = 34057;
+
+	/**
+	 * Wyrmscraig
+	 */
+	public static final int SAILING_SKILLGUIDE_PORTS_WYRMSCRAIG = 34058;
+
+	/**
+	 * Fairy tale quest lamp
+	 */
+	public static final int DEADMAN_QUEST_LAMP_TIER_11 = 34059;
+
 	public static final class Cert
 	{
 		public static final int TWPART1 = 7;
@@ -90093,8 +91514,6 @@ public final class ItemID
 		public static final int ALUFT_GNOME_SCARF = 9471;
 		public static final int ALUFT_GNOME_GOGGLES = 9473;
 		public static final int ALUFT_GNOME_MINT_CAKE = 9476;
-		public static final int ALUFT_COCTAIL_GLASS_EMPTY = 9488;
-		public static final int ALUFT_COCTAIL_GLASS_EMPTY_DUMMY = 9490;
 		public static final int ALUFT_WIZARD_BLIZZARD = 9509;
 		public static final int ALUFT_SGG = 9511;
 		public static final int ALUFT_PINEAPPLE_PUNCH = 9513;
@@ -92368,6 +93787,76 @@ public final class ItemID
 		public static final int SET_LEAGUE_6_RELICHUNTER_T3 = 33458;
 		public static final int BR_XBOWS_CROSSBOW_DRAGON = 33461;
 		public static final int BR_OATHPLATE_HELM = 33463;
+		public static final int ETCHED_ARAXYTE_FANG = 33535;
+		public static final int CRIMSON_KISTEN = 33632;
+		public static final int ETCHED_ELDER_VENATOR_FANG = 33637;
+		public static final int NECKLACE_OF_RUPTURE = 33640;
+		public static final int DUMMY_STYMPHIKE_FEATHER01 = 33645;
+		public static final int RAW_IMPALER_MEAT = 33822;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP01 = 33837;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP02 = 33840;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP03 = 33843;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP04 = 33846;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP05 = 33849;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP06 = 33852;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP07 = 33855;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT01 = 33858;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT02 = 33861;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT03 = 33864;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT04 = 33867;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT05 = 33870;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT06 = 33873;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT07 = 33876;
+		public static final int WYRMSCRAIG_NOBLE_SHOES = 33879;
+		public static final int WYRMSCRAIG_NOBLE_BOOTS = 33882;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP01 = 33885;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP02 = 33888;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP03 = 33891;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP04 = 33894;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP05 = 33897;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP06 = 33900;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP07 = 33903;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP08 = 33906;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED01 = 33909;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED02 = 33912;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED03 = 33915;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED04 = 33918;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED05 = 33921;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED06 = 33924;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED07 = 33927;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM01 = 33930;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM02 = 33933;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM03 = 33936;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM04 = 33939;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM05 = 33942;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM06 = 33945;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM07 = 33948;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP01 = 33951;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP02 = 33954;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP03 = 33957;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP04 = 33960;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP05 = 33963;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP06 = 33966;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP07 = 33969;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT01 = 33972;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT02 = 33975;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT03 = 33978;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT04 = 33981;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT05 = 33984;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT06 = 33987;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT07 = 33990;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT01 = 33993;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT02 = 33996;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT03 = 33999;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT04 = 34002;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT05 = 34005;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT06 = 34008;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT07 = 34011;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT08 = 34014;
+		public static final int GOAT_PIT_FUR = 34018;
+		public static final int HALLOWFELL = 34028;
+		public static final int MAD_ANGEL_SWORD = 34036;
+		public static final int BH_EMBLEM_5 = 34060;
 	}
 
 	public static final class Placeholder
@@ -95161,10 +96650,7 @@ public final class ItemID
 		public static final int DREAM_CHEST = 16489;
 		public static final int DREAM_HUNTER_BOX = 16490;
 		public static final int DREAM_LANTERN = 16491;
-		public static final int STAKE = 16492;
 		public static final int GARLIC = 16493;
-		public static final int PIPKEY_GOLD = 16494;
-		public static final int PIPKEY_IRON = 16495;
 		public static final int PIPTINDERBOX_GOLD = 16496;
 		public static final int PIPCANDLE_GOLD = 16497;
 		public static final int PIPPOT_GOLD = 16498;
@@ -101965,6 +103451,143 @@ public final class ItemID
 		public static final int DIZANAS_QUIVER_TROUVER_MANGLED = 33527;
 		public static final int DIZANAS_QUIVER_INFINITE_TROUVER_BROKEN = 33529;
 		public static final int DIZANAS_QUIVER_INFINITE_TROUVER_MANGLED = 33531;
+		public static final int ETCHED_ARAXYTE_FANG = 33536;
+		public static final int GARLIC_COCKTAIL = 33538;
+		public static final int BUCKET_OF_BLOODWOOD_SAP = 33540;
+		public static final int SEEKING_ARROW_SHAFT = 33542;
+		public static final int SEEKING_HEADLESS_ARROW = 33548;
+		public static final int SEEKING_BRONZE_ARROW = 33554;
+		public static final int SEEKING_IRON_ARROW = 33560;
+		public static final int SEEKING_STEEL_ARROW = 33566;
+		public static final int SEEKING_MITHRIL_ARROW = 33572;
+		public static final int SEEKING_ADAMANT_ARROW = 33578;
+		public static final int SEEKING_RUNE_ARROW = 33584;
+		public static final int SEEKING_AMETHYST_ARROW = 33590;
+		public static final int SEEKING_DRAGON_ARROW = 33596;
+		public static final int SEEKING_SLAYER_BROAD_ARROWS = 33602;
+		public static final int SAP_TREATED_LOGS = 33608;
+		public static final int SAP_TREATED_MAGIC_LOGS = 33610;
+		public static final int SAP_TREATED_YEW_LOGS = 33612;
+		public static final int SAP_TREATED_MAPLE_LOGS = 33614;
+		public static final int SAP_TREATED_WILLOW_LOGS = 33616;
+		public static final int SAP_TREATED_OAK_LOGS = 33618;
+		public static final int SAP_TREATED_REDWOOD_LOGS = 33620;
+		public static final int LEECHFIN = 33622;
+		public static final int BLOOD_SAC = 33624;
+		public static final int LETVEK = 33626;
+		public static final int CRIMSON_KISTEN = 33633;
+		public static final int ELDER_VENATOR_FANG = 33635;
+		public static final int ETCHED_ELDER_VENATOR_FANG = 33638;
+		public static final int NECKLACE_OF_RUPTURE = 33641;
+		public static final int MAGGOTKINGPET = 33643;
+		public static final int DUMMY_STYMPHIKE_FEATHER01 = 33646;
+		public static final int STYMPHIKE_FEATHER = 33652;
+		public static final int STYMPHIKE_CARCASS = 33654;
+		public static final int HUNTING_STYMPHIKE_SPEAR = 33656;
+		public static final int ORIKALKUM_GRAVEL = 33658;
+		public static final int GRAPEVINE = 33660;
+		public static final int VENATOR_FANG = 33662;
+		public static final int VENATOR_TOOTH = 33664;
+		public static final int MAGGOT_EGG = 33666;
+		public static final int SICKLY_MAGGOT_EGG = 33668;
+		public static final int WARM_MAGGOT_EGG = 33670;
+		public static final int PULSATING_MAGGOT_EGG = 33672;
+		public static final int WRIGGLING_MAGGOT_EGG = 33674;
+		public static final int WRITHING_MAGGOT_EGG = 33676;
+		public static final int TARNISHED_LONGSWORD = 33678;
+		public static final int TARNISHED_SPEAR = 33680;
+		public static final int TARNISHED_2H_SWORD = 33682;
+		public static final int TARNISHED_BATTLEAXE = 33684;
+		public static final int TARNISHED_HALBERD = 33686;
+		public static final int TARNISHED_RING = 33688;
+		public static final int TARNISHED_BRACELET = 33690;
+		public static final int TARNISHED_NECKLACE = 33692;
+		public static final int TARNISHED_AMULET = 33694;
+		public static final int VENATOR_HEART = 33696;
+		public static final int DRIED_OUT_VENATOR_HEART = 33698;
+		public static final int BR_VIAL_EMPTY = 33700;
+		public static final int SILVER_SICKLE_DIAMOND = 33710;
+		public static final int SILVER_SICKLE_DIAMOND_ENCHANTED = 33712;
+		public static final int BLISTERWOOD_SICKLE_ENHANCED = 33714;
+		public static final int BLISTERWOOD_STAKE = 33717;
+		public static final int HALLOWED_FLAIL = 33719;
+		public static final int SUNSPEAR = 33723;
+		public static final int RAW_IMPALER_MEAT = 33823;
+		public static final int ANCIENT_SCEPTRE_TROUVER_BROKEN = 33828;
+		public static final int ANCIENT_SCEPTRE_TROUVER_MANGLED = 33830;
+		public static final int CERT_ALUFT_COCTAIL_GLASS_EMPTY = 33831;
+		public static final int CERT_ALUFT_COCTAIL_GLASS_EMPTY_DUMMY = 33832;
+		public static final int LETVEK_IN_A_BUCKET = 33834;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP01 = 33838;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP02 = 33841;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP03 = 33844;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP04 = 33847;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP05 = 33850;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP06 = 33853;
+		public static final int WYRMSCRAIG_NOBLE_ROBETOP07 = 33856;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT01 = 33859;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT02 = 33862;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT03 = 33865;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT04 = 33868;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT05 = 33871;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT06 = 33874;
+		public static final int WYRMSCRAIG_NOBLE_SKIRT07 = 33877;
+		public static final int WYRMSCRAIG_NOBLE_SHOES = 33880;
+		public static final int WYRMSCRAIG_NOBLE_BOOTS = 33883;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP01 = 33886;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP02 = 33889;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP03 = 33892;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP04 = 33895;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP05 = 33898;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP06 = 33901;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP07 = 33904;
+		public static final int WYRMSCRAIG_VILLAGER_ROBETOP08 = 33907;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED01 = 33910;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED02 = 33913;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED03 = 33916;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED04 = 33919;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED05 = 33922;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED06 = 33925;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM_STRIPED07 = 33928;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM01 = 33931;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM02 = 33934;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM03 = 33937;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM04 = 33940;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM05 = 33943;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM06 = 33946;
+		public static final int WYRMSCRAIG_VILLAGER_ROBEBOTTOM07 = 33949;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP01 = 33952;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP02 = 33955;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP03 = 33958;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP04 = 33961;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP05 = 33964;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP06 = 33967;
+		public static final int WYRMSCRAIG_VILLAGER_DRESS_ROBETOP07 = 33970;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT01 = 33973;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT02 = 33976;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT03 = 33979;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT04 = 33982;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT05 = 33985;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT06 = 33988;
+		public static final int WYRMSCRAIG_VILLAGER_SKIRT07 = 33991;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT01 = 33994;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT02 = 33997;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT03 = 34000;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT04 = 34003;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT05 = 34006;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT06 = 34009;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT07 = 34012;
+		public static final int WYRMSCRAIG_VILLAGER_WORK_SKIRT08 = 34015;
+		public static final int GOAT_PIT_FUR = 34019;
+		public static final int SUNSTONE = 34021;
+		public static final int SUNSTONE_CORE = 34023;
+		public static final int JEWELLERS_CHISEL = 34025;
+		public static final int HALLOWFELL = 34029;
+		public static final int JAR_OF_LIGHT = 34031;
+		public static final int TELEPORTSCROLL_ARDEAGLAIS = 34034;
+		public static final int MAD_ANGEL_SWORD = 34037;
+		public static final int GOATPITPET = 34041;
+		public static final int MADANGELPET = 34043;
 	}
 /* This file is automatically generated. Do not edit. */
 }
