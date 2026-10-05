@@ -165,6 +165,8 @@ enum TeleportLocationData
 	TELEPORT_CRYSTAL_PRIFDDINAS(TeleportType.OTHER, "Teleport crystal", "Prifddinas", new WorldPoint(3264, 6065, 0), "teleport_crystal_icon.png"),
 	DRAKANS_MEDALLION_VER_SINHAZA(TeleportType.OTHER, "Drakan's medallion", "Ver Sinhaza", new WorldPoint(3649, 3230, 0), "drakans_medallion_teleport_icon.png"),
 	DRAKANS_MEDALLION_DARKMEYER(TeleportType.OTHER, "Drakan's medallion", "Darkmeyer", new WorldPoint(3592, 3337, 0), "drakans_medallion_teleport_icon.png"),
+	DRAKANS_MEDALLION_SLEPE(TeleportType.OTHER, "Drakan's medallion", "Slepe", new WorldPoint(3808, 9700, 0), "drakans_medallion_teleport_icon.png"),
+	DRAKANS_MEDALLION_CASTLE_DRAKAN(TeleportType.OTHER, "Drakan's medallion", "Castle Drakan", new WorldPoint(3557, 3358, 0), "drakans_medallion_teleport_icon.png"),
 	RING_OF_THE_ELEMENTS_AIR(TeleportType.OTHER, "Ring of the elements", "Air Altar", new WorldPoint(2981, 3276, 0), "ring_of_the_elements_teleport_icon.png"),
 	RING_OF_THE_ELEMENTS_WATER(TeleportType.OTHER, "Ring of the elements", "Water Altar", new WorldPoint(3166, 3158, 0), "ring_of_the_elements_teleport_icon.png"),
 	RING_OF_THE_ELEMENTS_EARTH(TeleportType.OTHER, "Ring of the elements", "Earth Altar", new WorldPoint(3288, 3468, 0), "ring_of_the_elements_teleport_icon.png"),
@@ -254,6 +256,8 @@ enum TeleportLocationData
 	FISHING_CAPE_OTTOS_GROTTO(TeleportType.OTHER, "Fishing Cape", "Otto's Grotto", new WorldPoint(2504, 3484, 0), "fishing_cape_icon.png"),
 	HUNTER_CAPE_CARNIVOROUS(TeleportType.OTHER, "Hunter Cape", "Carnivorous Chinchompa Area", new WorldPoint(2556, 2916, 0), "hunter_cape_icon.png"),
 	HUNTER_CAPE_BLACK(TeleportType.OTHER, "Hunter Cape", "Black Chinchompa Area", new WorldPoint(3144, 3772, 0), "hunter_cape_icon.png"),
+	HUNTER_CAPE_HUNTER_GUILD(TeleportType.OTHER, "Hunter Cape", "Hunter Guild", new WorldPoint(1558, 3046, 0), "hunter_cape_icon.png"),
+	SAILING_CAPE(TeleportType.OTHER, "Sailing Cape", "The Pandemonium", new WorldPoint(3048, 2972, 0), "sailing_cape_icon.png"),
 	STRENGTH_CAPE(TeleportType.OTHER, "Strength Cape", new WorldPoint(2865, 3546, 0), "strength_cape_icon.png"),
 	QUEST_CAPE(TeleportType.OTHER, "Quest Cape", new WorldPoint(2729, 3348, 0), "quest_cape_icon.png"),
 	MUSIC_CAPE(TeleportType.OTHER, "Music Cape", "Falo the Bard", new WorldPoint(2689, 3547, 0), "music_cape_icon.png");
